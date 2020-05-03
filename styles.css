@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+/* Heading */
+.section-heading {
+  margin: 5rem auto 10rem auto;
+}
+
+.section-heading>h1 {
+  margin: 1rem auto 1rem auto;
+}
+
+.section-heading>p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.first-heading {
+  font-weight: 200;
+}
+
+.second-heading {
+  font-weight: 600;
+}
+
+/* Content */
+.window {
+  background-color: #fff;
+  border-radius: 4%;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+}
+
+.supervisor {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.img-icon {
+  position: relative;
+  left: 60%;
+}
+
+@media (min-width:1300px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .section-heading>p {
+    width: 30%;
+  }
+
+  .window {
+    width: 20%;
+  }
+
+  .supervisor {
+    position: relative;
+    left: 15%;
+    top: 5rem;
+  }
+
+  .team-builder {
+    position: relative;
+    left: 37%;
+    bottom: 20rem;
+  }
+
+  .karma {
+    position: relative;
+    left: 37%;
+    bottom: 20rem;
+  }
+
+  .calculator {
+    position: relative;
+    left: 59%;
+    bottom: 44rem;
+  }
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
